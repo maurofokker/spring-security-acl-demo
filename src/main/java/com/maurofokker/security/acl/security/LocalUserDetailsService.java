@@ -1,7 +1,7 @@
 package com.maurofokker.security.acl.security;
 
-import com.baeldung.lss.model.User;
-import com.baeldung.lss.persistence.UserRepository;
+import com.maurofokker.security.acl.model.User;
+import com.maurofokker.security.acl.persistence.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

@@ -13,7 +13,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 public class SpringSecurityAclDemoApplication {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(new Class[] { SpringSecurityAclDemoApplication.class, SecurityConfiguration.class, WebMvcConfiguration.class }, args);
+        SpringApplication.run(new Class[] { SpringSecurityAclDemoApplication.class, SecurityConfiguration.class, WebMvcConfiguration.class, MethodSecurityConfiguration.class }, args);
     }
 
 }
