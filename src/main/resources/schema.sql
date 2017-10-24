@@ -41,7 +41,7 @@
 --
 
 -- MySQL Schema
-USE lss114;
+USE acldemo;
 
 DROP TABLE IF EXISTS Possession;
 DROP TABLE IF EXISTS User;
